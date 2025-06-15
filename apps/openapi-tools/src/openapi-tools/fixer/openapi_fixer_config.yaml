@@ -1,0 +1,118 @@
+# ===================================================================
+# OpenAPI Fixer and Translator Configuration
+# ===================================================================
+# This file acts as the central control panel for the openapi_fixer.py tool.
+
+# --- 1. Path Configuration ---
+# Defines all input and output paths used by the tool.
+paths:
+  input_openapi: "openapi.yaml"
+  dictionaries_dir: "locales/optimized"
+  output_dir: "dist/"
+  log_file: "dist/openapi_fixer.log"
+  postman_collection: "dist/postman_collection.json"
+  insomnia_workspace: "dist/insomnia_workspace.json"
+  spectral_ruleset: ".spectral.yaml" # Assumes a spectral ruleset file in the root
+
+# --- 2. Translation Engine ---
+# Controls which fields are targeted for translation.
+translation:
+  # Fields that are always targeted for translation if their value is a key.
+  translatable_fields:
+    - description
+    - summary
+    - title
+    - name
+    - termsOfService
+
+  # Fields that might contain inline translation keys within their string content.
+  example_fields:
+    - example
+    - examples
+    - default
+
+# --- 3. Default Content ---
+# Defines default objects to be inserted if they are missing from the source OpenAPI file.
+defaults:
+  info:
+    title: "api.doc.general.title"
+    version: "1.0.0"
+    description: "api.doc.general.description"
+    contact:
+      name: "api.doc.general.contact.name"
+      email: "api.doc.general.contact.email"
+    license:
+      name: "MIT"
+      url: "https://opensource.org/licenses/MIT"
+
+  servers:
+    - url: "https://api.company.com/v1"
+      description: "Production server"
+    - url: "http://localhost:8080/v1"
+      description: "Development server"
+
+# --- 4. Validation Rules ---
+# Custom validation rules to enforce API consistency.
+validation:
+  # If true, every operation must have at least one tag.
+  require_tags: true
+
+  # If true, every response must have an example.
+  require_examples: false
+
+  # If true, all parameters must have a description.
+  require_parameter_descriptions: true
+
+  # Enforces that every operation has at least these response codes defined.
+  required_responses:
+    - "200"
+    - "400"
+    - "401"
+    - "500"
+
+# --- 5. Post-Processing ---
+# Optional steps to clean up the final output file.
+post_processing:
+  # If true, sorts API paths alphabetically.
+  sort_paths: true
+
+  # If true, sorts tags alphabetically.
+  sort_tags: true
+
+  # If true, removes any operation marked with a custom 'x-unimplemented: true' field.
+  remove_unimplemented: false
+
+# --- 6. Integrations ---
+# Configuration for generating files for third-party tools.
+integrations:
+  postman:
+    enabled: true
+    # The output path is defined in the 'paths' section.
+
+  spectral:
+    enabled: true
+    options:
+      # Path to the Spectral ruleset file, defined in the 'paths' section.
+      ruleset_from_config: true
+
+# --- 7. Output Settings ---
+# Controls the format and style of the generated files.
+output:
+  formats:
+    - yaml
+    - json
+  yaml_options:
+    allow_unicode: true
+    sort_keys: false
+    default_flow_style: false
+    width: 120
+  json_indent: 2
+  create_backup: true
+
+# --- 8. Logging ---
+# Controls the verbosity and destination of log messages.
+logging:
+  # Log level (DEBUG, INFO, WARNING, ERROR)
+  level: "INFO"
+  # If true, logs will be saved to the file defined in the 'paths' section.
+  file_logging: true

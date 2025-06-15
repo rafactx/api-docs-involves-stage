@@ -13,23 +13,36 @@ import sys
 import argparse
 import logging
 from pathlib import Path
+from typing import List, Optional
 
+# ===================================================================
+# 1. SCRIPT CONFIGURATION
+# ===================================================================
+
+# --- 1.1. Module Imports ---
 # Absolute imports work because the project is installed in editable mode.
-from scripts.api_dictionary_optimizer import APIDescriptionOptimizer
-from scripts.constants import StatKeys
+from optimizer.api_dictionary_optimizer import APIDescriptionOptimizer
+from optimizer.constants import StatKeys
 
-# --- Configuration ---
+# --- 1.2. Path Definitions ---
+# All paths are relative to the project root for robustness.
+# Assumes the script is run from the root of 'apps/openapi-tools'.
+PROJECT_ROOT = Path.cwd()
+INPUT_DIR = PROJECT_ROOT / "locales" / "original"
+OUTPUT_ROOT = PROJECT_ROOT / "locales" / "optimized"
+RULES_DIR = PROJECT_ROOT / "rules"  # Central location for all rule files
+
+# --- 1.3. Language and Logging Setup ---
 SUPPORTED_LANGUAGES = {
     "pt-BR": "🇧🇷", "en-US": "🇺🇸", "es-ES": "🇪🇸", "fr-FR": "🇫🇷",
 }
-BASE_DIR = Path(__file__).resolve().parent.parent.parent # Project root
-INPUT_DIR = BASE_DIR / "locales" / "original"
-OUTPUT_ROOT = BASE_DIR / "locales" / "optimized"
-
-# Setup a global logger
 logging.basicConfig(level=logging.INFO, format='%(message)s')
 logger = logging.getLogger(__name__)
 
+
+# ===================================================================
+# 2. CORE WORKFLOW LOGIC
+# ===================================================================
 
 def ask_for_language() -> str:
     """Prompts the user to interactively select a language."""
@@ -67,7 +80,9 @@ def process_language(language: str):
 
     logger.info(f"🔎 Found {len(json_files)} file(s) to optimize.")
 
-    optimizer = APIDescriptionOptimizer(language=language)
+    # ### CORREÇÃO ###
+    # Pass the RULES_DIR directly to the optimizer instance as required.
+    optimizer = APIDescriptionOptimizer(language=language, rules_dir=RULES_DIR)
 
     total_stats = {key: 0 for key in StatKeys.__dict__ if not key.startswith('__')}
 
@@ -104,8 +119,12 @@ def process_language(language: str):
     logger.info(f"📦 Optimized files available in: {output_dir.resolve()}")
 
 
+# ===================================================================
+# 3. COMMAND-LINE INTERFACE (CLI) ENTRY POINT
+# ===================================================================
+
 def main():
-    """Main entry point for the command-line tool."""
+    """Defines and parses command-line arguments to run the script."""
     parser = argparse.ArgumentParser(
         description="Workflow Manager for API Dictionary Optimization.",
         formatter_class=argparse.RawTextHelpFormatter
@@ -118,7 +137,8 @@ def main():
 
     args = parser.parse_args()
 
-    languages_to_run = []
+    # Determine which languages to run based on CLI flags or user interaction
+    languages_to_run: List[str] = []
     if args.all:
         languages_to_run = list(SUPPORTED_LANGUAGES.keys())
     else:
@@ -129,17 +149,20 @@ def main():
     if not languages_to_run:
         languages_to_run.append(ask_for_language())
 
+    # Pre-flight check for required directories
     if not INPUT_DIR.exists():
         logger.error(f"❌ Input directory not found: {INPUT_DIR}")
         sys.exit(1)
+    if not RULES_DIR.exists():
+        logger.error(f"❌ Rules directory not found: {RULES_DIR}")
+        sys.exit(1)
 
+    # Run the main processing loop
     for lang in languages_to_run:
         process_language(lang)
 
     logger.info("\n✨ Workflow finished successfully! ✨")
 
 
-# This standard boilerplate makes the script runnable directly (`python workflow_manager.py`)
-# but also allows the `main` function to be imported by our command-line tool.
 if __name__ == "__main__":
     main()

@@ -14,9 +14,18 @@ authors = [
 readme = "README.md"
 requires-python = ">=3.8"
 
+# Declara as dependências que seu projeto precisa para funcionar.
+# O pip as instalará automaticamente.
+dependencies = [
+  "PyYAML>=6.0"  # Dependência para ler e escrever arquivos .yaml
+]
+
+# Define os comandos de terminal que seu projeto cria.
 [project.scripts]
 optimize-dict = "scripts.workflow_manager:main"
+fix-openapi = "scripts.openapi_fixer:main"
 
+# Define dependências extras para o ambiente de desenvolvimento.
 [project.optional-dependencies]
 dev = [
     "pytest",
@@ -24,7 +33,6 @@ dev = [
     "ruff",
 ]
 
+# Configura como o setuptools encontra seu código-fonte.
 [tool.setuptools.packages.find]
 where = ["src"]
-include = ["scripts*"]
-exclude = ["tests*"]
