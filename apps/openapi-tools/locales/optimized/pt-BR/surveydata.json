@@ -1,0 +1,19 @@
+{
+  "api.doc.v1.surveydata.description": "Resposta de uma pesquisa.",
+  "api.doc.v1.surveydata.id.description": "ID da resposta.",
+  "api.doc.v1.surveydata.value.description": "Valor da resposta.",
+  "api.doc.v1.surveydata.score.description": "Pontuação da resposta.",
+  "api.doc.v1.surveydata.has-warning.description": "A resposta foi criticada.",
+  "api.doc.v1.surveydata.warning-message.description": "Crítica da resposta.",
+  "api.doc.v1.surveydata.was-selected-on-items-list.description": "A resposta foi marcada.",
+  "api.doc.v1.surveydata.edited.description": "A resposta foi editada.",
+  "api.doc.v1.surveydata.processed.description": "A resposta foi processada.",
+  "api.doc.v1.surveydata.out-of-range-value.description": "O valor da resposta ficou fora do esperado.",
+  "api.doc.v1.surveydata.form-field.description": "Campo do formulário relacionado com a resposta.",
+  "api.doc.v1.surveydata.brand.description": "Marca relacionada com a resposta.",
+  "api.doc.v1.surveydata.sku.description": "Produto relacionado com a resposta.",
+  "api.doc.v1.surveydata.product-line.description": "Linha de produto relacionada com a resposta.",
+  "api.doc.v1.surveydata.category.description": "Categoria da linha de produto relacionada com a resposta.",
+  "api.doc.v1.surveydata.supercategory.description": "Supercategoria da linha de produto relacionada com a resposta.",
+  "api.doc.v1.surveydata.surve-data-image-ids.description": "Lista dos IDs das imagens relacionadas com a resposta."
+}

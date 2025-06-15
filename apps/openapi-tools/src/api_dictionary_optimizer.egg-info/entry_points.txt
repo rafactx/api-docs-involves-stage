@@ -1,0 +1,2 @@
+[console_scripts]
+optimize-dict = scripts.workflow_manager:main

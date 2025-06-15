@@ -1,0 +1,6 @@
+{
+  "api.doc.v1.user.description": "Versão compacta de um usuário.",
+  "api.doc.v1.user.id.description": "ID do usuário.",
+  "api.doc.v1.user.name.description": "Nome de user.",
+  "api.error.v3.user.environment-null.description": "O usuário logado precisa estar vinculado com um ambiente."
+}

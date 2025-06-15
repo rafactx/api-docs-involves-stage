@@ -1,0 +1,30 @@
+# pyproject.toml
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "api-dictionary-optimizer"
+version = "1.0.0"
+description = "A tool to lint, organize, and optimize OpenAPI description files."
+authors = [
+  { name="Rafael Teixeira", email="teixeirac.rafael@gmail.com" },
+]
+readme = "README.md"
+requires-python = ">=3.8"
+
+[project.scripts]
+optimize-dict = "scripts.workflow_manager:main"
+
+[project.optional-dependencies]
+dev = [
+    "pytest",
+    "black",
+    "ruff",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+include = ["scripts*"]
+exclude = ["tests*"]

@@ -1,0 +1,14 @@
+{
+  "api.doc.v3.pointofsalechannel.get-by-id.description": "Retorna um canal do ponto de venda de acordo com o ID do canal",
+  "api.doc.v3.pointofsalechannel.get-by-id-ok.description": "Canal de ponto do venda retornado com sucesso",
+  "api.doc.v3.pointofsalechannel.id.description": "ID do canal do ponto de venda",
+  "api.doc.v1.pointofsalechannel.description": "Representa um canal do ponto de venda",
+  "api.doc.v1.pointofsalechannel.id.description": "ID do canal do ponto de venda",
+  "api.doc.v1.pointofsalechannel.name.description": "Nome do canal do ponto de venda",
+  "api.error.v3.pointofsalechannel.not-found.description": "Canal do ponto de venda não encontrado",
+  "api.doc.v3.pointofsalechannel.post.description": "Salva um novo canal de ponto de venda",
+  "api.doc.v3.pointofsalechannel.post-ok.description": "Retorna o ID do novo canal de ponto de venda que foi salvo com sucesso",
+  "api.doc.v3.pointofsalechannel.list.description": "Retorna uma lista paginada de canais de ponto de venda",
+  "api.doc.v3.pointofsalechannel.name.description": "Nome do canal de ponto de venda",
+  "api.doc.v3.pointofsalechannel.list-ok.description": "Lista de canais de ponto de venda retornada com sucesso"
+}

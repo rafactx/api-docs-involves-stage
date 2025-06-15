@@ -1,0 +1,17 @@
+{
+  "api.doc.v3.brand.get-by-id.description": "Retorna uma marca de acordo com o seu ID",
+  "api.doc.v3.brand.get-by-id-ok.description": "Marca retornada com sucesso",
+  "api.doc.v3.brand.id.description": "ID da marca",
+  "api.doc.v1.brand.mini.description": "Representa uma versão compacta de uma marca",
+  "api.doc.v1.brand.id.description": "ID da marca",
+  "api.doc.v1.brand.name.description": "Nome da marca",
+  "api.doc.v1.brand.sync.description": "Retorna as marcas modificadas após a data em milissegundos (ms) especificada",
+  "api.doc.v1.brand.sync-ok.description": "Lista de marcas retornada com sucesso",
+  "api.doc.v1.brand.sync-timestamp.description": "Data em milissegundos (ms) que será utilizada como início da consulta",
+  "api.doc.v1.brand.sync-size.description": "Número de registros a serem listados",
+  "api.doc.v1.brand.sync-return-count.description": "Indica se deve retornar o número estimado de páginas",
+  "api.doc.v1.brand.sync-ignore-excluded.description": "Indica se deve ignorar as marcas excluídas",
+  "api.doc.v3.brand.list.description": "Retorna uma lista paginada de marcas",
+  "api.doc.v3.brand.list-ok.description": "Lista paginada de marcas retornada com sucesso",
+  "api.doc.v3.brand.name.description": "Nome da marca"
+}

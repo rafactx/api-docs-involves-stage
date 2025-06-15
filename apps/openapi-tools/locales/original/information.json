@@ -1,0 +1,13 @@
+{
+  "api.doc.v1.information.description": "Representa uma informação que pode ser relacionada com um campo do formulário",
+  "api.doc.v1.information.id.description": "ID da informação",
+  "api.doc.v1.information.label.description": "Nome que será exibido na web",
+  "api.doc.v1.information.alternative-label.description": "Nome que será exibido no aplicativo",
+  "api.doc.v1.information.information-type.description": "Tipo da informação",
+  "api.doc.v1.information.related-to.description": "Objetivo da informação",
+  "api.doc.v1.information.first-item-selected-by-default.description": "Indica se uma opção deve vir selecionada ao abrir o formulário para responder, pode ser utilizada em casos onde a informação é do tipo: BOOLEAN, LIST_COMBO e LIST_RADIO",
+  "api.doc.v1.information.max-size.description": "Indica a quantidade máxima de caracteres que serão permitidos ao responder a informação, em casos do tipo fotos, indica a quantidade máxima de fotos",
+  "api.doc.v1.information.min-size.description": "Indica a quantidade mínima de caracteres que serão permitidos ao responder a informação, em casos do tipo fotos, indica a quantidade mínima de fotos",
+  "api.doc.v1.information.deleted.description": "Indica se a informação foi excluída",
+  "api.doc.v1.information.information-options.description": "Lista de opções da informação"
+}

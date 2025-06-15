@@ -1,0 +1,7 @@
+{
+  "api.doc.v1.visitsurveys.description": "Representa informações sobre as pesquisas de uma visita",
+  "api.doc.v1.visitsurveys.expected.description": "Quantidade de pesquisas esperadas",
+  "api.doc.v1.visitsurveys.completed.description": "Quantidade de pesquisas realizadas",
+  "api.doc.v1.visitsurveys.pending.description": "Quantidade de pesquisas pendentes",
+  "api.doc.v1.visitsurveys.all-surveys-answered.description": "Indica se foram respondidas todas as pesquisas"
+}

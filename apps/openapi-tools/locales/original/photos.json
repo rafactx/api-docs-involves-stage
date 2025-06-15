@@ -1,0 +1,4 @@
+{
+  "api.doc.v3.photos.title": "API de fotos",
+  "api.doc.v3.photos.description": "<p>A API de fotos de pesquisa está fora da nossa documentação da plataforma.Para poder acessar este recurso contate o suporte para receber acesso a dois endpoints que permitem a extração de fotos por API.</p>\n<p>A API de fotos atualmente só suporta a extração de fotos de pesquisa de forma programática.</p>"
+}

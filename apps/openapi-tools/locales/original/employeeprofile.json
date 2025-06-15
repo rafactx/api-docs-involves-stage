@@ -1,0 +1,5 @@
+{
+  "api.doc.v1.employeeprofile.description": "Representa um perfil de colaborador",
+  "api.doc.v1.employeeprofile.id.description": "ID do perfil do colaborador",
+  "api.doc.v1.employeeprofile.name.description": "Nome do perfil do colaborador"
+}

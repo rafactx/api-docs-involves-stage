@@ -1,0 +1,4 @@
+{
+  "api.doc.v3.scheduledvisit.save-all.description": "Cadastra múltiplas visitas agendadas no roteiro do colaborador.",
+  "api.doc.v3.scheduledvisit.save-all-ok.description": "Visitas agendadas cadastradas com sucesso."
+}

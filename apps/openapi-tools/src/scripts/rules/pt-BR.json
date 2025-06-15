@@ -1,0 +1,90 @@
+{
+  "redundant_phrases": [
+    ["^Representa\\s+(uma?\\s+)?", ""],
+    ["^Retorna\\s+(uma?\\s+)?", ""],
+    ["^Indica\\s+se\\s+", ""],
+    ["^Indica\\s+o\\s+", ""],
+    ["^Define\\s+(uma?\\s+)?", ""],
+    ["^Contém\\s+(uma?\\s+)?", ""],
+    ["^Lista\\s+de\\s+", ""],
+    ["^Informações?\\s+sobre\\s+", ""],
+    ["^Dados?\\s+d[oa]s?\\s+", ""],
+    ["de\\s+acordo\\s+com\\s+o\\s+(seu\\s+)?", "pelo "],
+    ["de\\s+acordo\\s+com\\s+os?\\s+", "pelos "],
+    ["\\s+enviados?$", ""],
+    ["\\s+especificados?$", ""],
+    ["Quantidade\\s+de\\s+", "Total de "]
+  ],
+  "term_mappings": {
+    "ponto de venda": "PDV",
+    "pontos de venda": "PDVs",
+    "colaborador": "colaborador",
+    "funcionário": "funcionário",
+    "identificador único": "ID único",
+    "identificador": "ID",
+    "Data de atualização": "Última atualização",
+    "Data da última atualização": "Última atualização",
+    "sem caracteres especiais, apenas números": "somente números",
+    "Sexo": "Gênero"
+  },
+  "formatting_patterns": [
+    ["Valores\\s+retornados:\\s*(\\d+)\\s*\\(([^)]+)\\)", "\\1 = \\2"]
+  ],
+  "field_patterns": {
+    "id": "ID único de {entity}",
+    "name": "Nome de {entity}",
+    "description": "Descrição de {entity}",
+    "active": "Status ativo/inativo",
+    "deleted": "Indica exclusão",
+    "created_at": "Data de criação",
+    "updated_at": "Última atualização"
+  },
+  "success_message_patterns": {
+    "retrieved": "{entity} retornado(a) com sucesso",
+    "created": "Criado com sucesso",
+    "updated": "Atualizado com sucesso",
+    "removed": "Removido com sucesso"
+  },
+  "contractions": [
+    ["\\ba o\\b", "ao"],
+    ["\\ba a\\b", "à"],
+    ["\\bde o\\b", "do"],
+    ["\\bde a\\b", "da"],
+    ["\\bem o\\b", "no"],
+    ["\\bem a\\b", "na"],
+    ["\\bpor o\\b", "pelo"],
+    ["\\bpor a\\b", "pela"]
+  ],
+  "entity_optimizations": {
+    "accessprofile": { "name": "Perfil de acesso", "plural": "Perfis de acesso", "gender": "m" },
+    "brand": { "name": "Marca", "plural": "Marcas", "gender": "f" },
+    "category": { "name": "Categoria", "plural": "Categorias", "gender": "f" },
+    "chain": { "name": "Rede", "plural": "Redes", "gender": "f" },
+    "city": { "name": "Cidade", "plural": "Cidades", "gender": "f" },
+    "country": { "name": "País", "plural": "Países", "gender": "m" },
+    "customfield": { "name": "Campo customizável", "plural": "Campos customizáveis", "gender": "m" },
+    "employee": { "name": "Colaborador", "plural": "Colaboradores", "gender": "m" },
+    "employeeabsence": { "name": "Afastamento", "plural": "Afastamentos", "gender": "m" },
+    "employeeenvironment": { "name": "Vínculo do colaborador", "plural": "Vínculos dos colaboradores", "gender": "m" },
+    "employeeprofile": { "name": "Perfil de acesso do colaborador", "plural": "Perfis de acesso do colaborador", "gender": "m" },
+    "environment": { "name": "Ambiente", "plural": "Ambientes", "gender": "m" },
+    "form": { "name": "Formulário", "plural": "Formulários", "gender": "m" },
+    "formflow": { "name": "Fluxo do formulário", "plural": "Fluxos do formulário", "gender": "m" },
+    "informativeform": { "name": "Pesquisa informativa", "plural": "Pesquisas informativas", "gender": "f" },
+    "macroregional": { "name": "Macroregional", "plural": "Macroregionais", "gender": "f" },
+    "pointofsale": { "name": "Ponto de venda", "plural": "Pontos de venda", "gender": "m" },
+    "pointofsalechannel": { "name": "Canal do PDV", "plural": "Canais do PDV", "gender": "m" },
+    "pointofsaletype": { "name": "Tipo de PDV", "plural": "Tipos de PDV", "gender": "m" },
+    "productline": { "name": "Linha de produto", "plural": "Linhas de produto", "gender": "f" },
+    "productlinemix": { "name": "Mix de produto", "plural": "Mix de produtos", "gender": "m" },
+    "regional": { "name": "Regional", "plural": "Regionais", "gender": "f" },
+    "scheduledvisits": { "name": "Visita agendada", "plural": "Visitas agendadas", "gender": "f" },
+    "shoppingcenter": { "name": "Centro comercial", "plural": "Centros comerciais", "gender": "m" },
+    "sku": { "name": "SKU", "plural": "SKUs", "gender": "m" },
+    "state": { "name": "Estado", "plural": "Estados", "gender": "m" },
+    "supercategory": { "name": "Supercategoria", "plural": "Supercategorias", "gender": "f" },
+    "survey": { "name": "Pesquisa de visita", "plural": "Pesquisas de visita", "gender": "f" },
+    "surveycategory": { "name": "Grupo de tarefas", "plural": "Grupos de tarefas", "gender": "m" },
+    "visit": { "name": "Visita", "plural": "Visitas", "gender": "f" }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "api.doc.v1.country.find.description": "Retorna todos os países cadastrados no sistema",
+  "api.doc.v1.country.find-ok.description": "Lista de países retornada com sucesso",
+  "api.doc.v1.country.get-by-code.description": "Retorna um país",
+  "api.doc.v1.country.get-by-code-ok.description": "País retornado com sucesso",
+  "api.doc.v1.country.code.description": "Código do país",
+  "api.doc.v1.country.description": "Representa um país",
+  "api.doc.v1.country.name.description": "Nome do país",
+  "api.doc.v1.country.description.description": "Descrição do país"
+}

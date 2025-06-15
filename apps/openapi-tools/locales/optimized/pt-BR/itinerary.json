@@ -1,0 +1,14 @@
+{
+  "api.doc.v2.itinerary.list.description": "As visitas agendadas para uma data, agrupadas por colaborador, em ordem de visita.",
+  "api.doc.v2.itinerary.list-ok.description": "Visitas agendadas retornadas com sucesso.",
+  "api.doc.v2.itinerary.query-date.description": "Data para consulta.",
+  "api.doc.v2.itinerary.description": "Roteiro.",
+  "api.doc.v2.itinerary.id.description": "ID do roteiro.",
+  "api.doc.v2.itinerary.employee-id.description": "ID do colaborador.",
+  "api.doc.v2.itinerary.employee-name.description": "Nome do colaborador.",
+  "api.doc.v2.itinerary.pointofsale-id.description": "ID do PDV.",
+  "api.doc.v2.itinerary.pointofsale-name.description": "Nome do PDV.",
+  "api.doc.v2.itinerary.tax-payer-code.description": "CNPJ do PDV.",
+  "api.doc.v2.itinerary.order.description": "Ordem da visita.",
+  "api.doc.v2.itinerary.query-ignore-inactive.description": "Ignora visitas agendadas de colaboradores inativos e desligados."
+}

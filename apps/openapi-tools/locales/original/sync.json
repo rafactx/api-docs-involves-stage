@@ -1,0 +1,4 @@
+{
+  "api.doc.v3.sync.title": "Sincronização de bases",
+  "api.doc.v3.sync.description": "<p>A API não suporta sincronização de bases, recomendamos o uso de nosso serviço de Data Integration para fazer esse processo.</p>\n<p>Para acionar este serviço envie um e-mail para <a href=\"mailto:dataintegration@involves.com\">dataintegration@involves.com</a>.</p>"
+}

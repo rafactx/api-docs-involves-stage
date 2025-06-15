@@ -1,0 +1,8 @@
+{
+  "api.doc.v1.customfield.description": "Representa um campo customizável",
+  "api.doc.v1.customfield.name.description": "Nome do campo customizável",
+  "api.doc.v1.customfield.value.description": "Valor do campo customizável",
+  "api.doc.v1.customfield.index.description": "Índice do campo customizável",
+  "api.doc.v1.customfield.visible-at-mobile.description": "Opção que mostra/esconde campo no aplicativo",
+  "api.doc.v1.customfield.searchable.description": "Opção que define se o campo é pesquisável"
+}

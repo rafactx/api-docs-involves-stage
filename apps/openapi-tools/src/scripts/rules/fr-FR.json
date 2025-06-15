@@ -1,0 +1,93 @@
+{
+  "redundant_phrases": [
+    ["^Representa\\s+(uma?\\s+)?", ""],
+    ["^Retorna\\s+(uma?\\s+)?", ""],
+    ["^Indica\\s+se\\s+", ""],
+    ["^Indica\\s+o\\s+", ""],
+    ["^Define\\s+(uma?\\s+)?", ""],
+    ["^Contém\\s+(uma?\\s+)?", ""],
+    ["^Lista\\s+de\\s+", ""],
+    ["^Informações?\\s+sobre\\s+", ""],
+    ["^Dados?\\s+d[oa]s?\\s+", ""],
+    ["de\\s+acordo\\s+com\\s+os?\\s+", "selon les "],
+    ["de\\s+acordo\\s+com\\s+o\\s+", "selon le "],
+    ["\\s+especificados?$", ""],
+    ["Quantidade\\s+de\\s+", "Total de "]
+  ],
+
+  "term_mappings": {
+    "ponto de venda": "point de vente",
+    "pontos de venda": "points de vente",
+    "colaborador": "employé",
+    "ambiente": "espace de travail",
+    "formulário": "formulaire",
+    "pesquisa": "enquête",
+    "roteiro": "itinéraire",
+    "cadeia": "chaîne",
+    "bandeira": "bannière",
+    "informações detalhadas sobre": "détails sur",
+    "configurações relacionadas a": "paramètres de",
+    "dados associados com": "données associées à",
+    "identificador único": "ID unique",
+    "identificador": "ID",
+    "Data de atualização": "Dernière mise à jour",
+    "Data da última atualização": "Dernière mise à jour",
+    "somente números": "chiffres uniquement"
+  },
+
+  "formatting_patterns": [
+    ["Valores\\s+retornados:\\s*(\\d+)\\s*\\(([^)]+)\\)", "\\1 = \\2"]
+  ],
+
+  "field_patterns": {
+    "id": "ID de {entity}",
+    "name": "Nom de {entity}",
+    "description": "Description de {entity}",
+    "active": "Statut actif/inactif",
+    "deleted": "Indique la suppression",
+    "created_at": "Date de création",
+    "updated_at": "Dernière mise à jour"
+  },
+
+  "success_message_patterns": {
+    "retrieved": "{entity} récupéré(e) avec succès",
+    "created": "Créé avec succès",
+    "updated": "Mis à jour avec succès",
+    "removed": "Supprimé avec succès"
+  },
+
+  "contractions": [],
+
+  "entity_optimizations": {
+    "accessprofile": { "name": "Profil d'accès", "plural": "Profils d'accès", "gender": "m" },
+    "brand": { "name": "Marque", "plural": "Marques", "gender": "f" },
+    "category": { "name": "Catégorie", "plural": "Catégories", "gender": "f" },
+    "chain": { "name": "Chaîne", "plural": "Chaînes", "gender": "f" },
+    "city": { "name": "Ville", "plural": "Villes", "gender": "f" },
+    "country": { "name": "Pays", "plural": "Pays", "gender": "m" },
+    "customfield": { "name": "Champ personnalisé", "plural": "Champs personnalisés", "gender": "m" },
+    "employee": { "name": "Employé", "plural": "Employés", "gender": "m" },
+    "employeeabsence": { "name": "Absence de l'employé", "plural": "Absences de l'employé", "gender": "f" },
+    "employeeenvironment": { "name": "Lien de l'employé", "plural": "Liens de l'employé", "gender": "m" },
+    "employeeprofile": { "name": "Profil d'accès de l'employé", "plural": "Profils d'accès de l'employé", "gender": "m" },
+    "environment": { "name": "Environnement", "plural": "Environnements", "gender": "m" },
+    "form": { "name": "Formulaire", "plural": "Formulaires", "gender": "m" },
+    "formflow": { "name": "Flux de formulaire", "plural": "Flux de formulaires", "gender": "m" },
+    "informativeform": { "name": "Enquête informative", "plural": "Enquêtes informatives", "gender": "f" },
+    "macroregional": { "name": "Macrorégional", "plural": "Macrorégionaux", "gender": "m" },
+    "pointofsale": { "name": "Point de vente", "plural": "Points de vente", "gender": "m" },
+    "pointofsalechannel": { "name": "Canal de PDV", "plural": "Canaux de PDV", "gender": "m" },
+    "pointofsaletype": { "name": "Type de PDV", "plural": "Types de PDV", "gender": "m" },
+    "productline": { "name": "Ligne de produits", "plural": "Lignes de produits", "gender": "f" },
+    "productlinemix": { "name": "Mix de produits", "plural": "Mix de produits", "gender": "m" },
+    "regional": { "name": "Régional", "plural": "Régionaux", "gender": "m" },
+    "scheduledvisits": { "name": "Visite planifiée", "plural": "Visites planifiées", "gender": "f" },
+    "shoppingcenter": { "name": "Centre commercial", "plural": "Centres commerciaux", "gender": "m" },
+    "sku": { "name": "SKU", "plural": "SKUs", "gender": "m" },
+    "state": { "name": "État", "plural": "États", "gender": "m" },
+    "supercategory": { "name": "Super-catégorie", "plural": "Super-catégories", "gender": "f" },
+    "survey": { "name": "Enquête de visite", "plural": "Enquêtes de visite", "gender": "f" },
+    "surveycategory": { "name": "Groupe de tâches", "plural": "Groupes de tâches", "gender": "m" },
+    "visit": { "name": "Visite", "plural": "Visites", "gender": "f" }
+  }
+}

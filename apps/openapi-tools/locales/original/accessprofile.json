@@ -1,0 +1,9 @@
+{
+  "api.doc.v1.accessprofile.description": "Representa uma versão compacta de um perfil de acesso",
+  "api.doc.v1.accessprofile.id.description": "ID do perfil de acesso",
+  "api.doc.v1.accessprofile.name.description": "Nome do perfil de acesso",
+  "api.doc.v1.accessprofile.hierarchy-level.description": "Hierarquia do perfil de acesso, o usuário só poderá visualizar dados gerados por ele ou por grupos de hierarquia menor",
+  "api.doc.v3.accessprofile.get-by-id-ok.description": "Perfil de acesso retornado com sucesso",
+  "api.doc.v3.accessprofile.get-by-id.description": "Retorna um perfil de acesso de acordo com seu ID",
+  "api.doc.v3.accessprofile.id.description": "ID do perfil de acesso"
+}

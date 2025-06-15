@@ -1,0 +1,8 @@
+{
+  "api.doc.v1.employee.leader.description": "Colaborador superior.",
+  "api.doc.v1.employee.id.description": "ID do colaborador.",
+  "api.doc.v1.employee.name.description": "Nome de Colaborador.",
+  "api.doc.v3.employee.id.description": "ID do colaborador.",
+  "api.doc.v3.employee.get-by-id.description": "Colaborador pelo ID.",
+  "api.doc.v3.employee.get-by-id-ok.description": "Colaborador retornado com sucesso."
+}

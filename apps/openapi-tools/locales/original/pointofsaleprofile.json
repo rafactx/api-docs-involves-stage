@@ -1,0 +1,14 @@
+{
+  "api.doc.v1.pointofsaleprofile.description": "Representa um perfil de ponto de venda",
+  "api.doc.v1.pointofsaleprofile.id.description": "ID do perfil do ponto de venda",
+  "api.doc.v1.pointofsaleprofile.name.description": "Nome do perfil do ponto de venda",
+  "api.doc.v1.pointofsaleprofile.find.description": "Retorna uma lista de perfis de pontos de venda de acordo com o ambiente",
+  "api.doc.v1.pointofsaleprofile.find-ok.description": "Lista de perfis de pontos de venda retornada com sucesso",
+  "api.doc.v1.pointofsaleprofile.get-by-id.description": "Retorna um perfil de ponto de venda de acordo com o ID enviado",
+  "api.doc.v1.pointofsaleprofile.get-by-id-ok.description": "Perfil de ponto de venda retornado com sucesso",
+  "api.doc.v3.pointofsaleprofile.post.description": "Salva um perfil de ponto de venda",
+  "api.doc.v3.pointofsaleprofile.post-ok.description": "Retorna o ID do novo perfil de ponto de venda que foi salvo com sucesso",
+  "api.doc.v3.pointofsaleprofile.monthly-required-visit.description": "Quantidade de visitas por mês esperado para pontos de venda deste perfil",
+  "api.doc.v3.pointofsaleprofile.required-visit-duration.description": "Duração das visitas a pontos de venda deste perfil. O valor do parâmetro deve respeitar o padrão ISO-8601 para durações. Mais informações <a href=\"https://en.wikipedia.org/wiki/ISO_8601#Durations\">aqui</a>.",
+  "api.doc.v3.pointofsaleprofile.required-visit-duration.example": "PT2H45M"
+}

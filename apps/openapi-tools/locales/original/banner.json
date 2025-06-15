@@ -1,0 +1,13 @@
+{
+  "api.doc.v3.banner.get-by-id.description": "Retorna uma bandeira de acordo com o seu ID",
+  "api.doc.v3.banner.get-by-id-ok.description": "Bandeira retornada com sucesso",
+  "api.doc.v3.banner.id.description": "ID da bandeira",
+  "api.doc.v1.banner.find.description": "Retorna uma lista de bandeiras de acordo com o parâmetro enviado (name). O retorno é limitado a um máximo de 100 resultados.",
+  "api.doc.v1.banner.find-ok.description": "Lista de bandeiras retornada com sucesso",
+  "api.doc.v1.banner.list.description": "Retorna uma lista paginada de bandeiras, que pode ser filtrada pelo parâmetro referente ao nome (name)",
+  "api.doc.v1.banner.list-ok.description": "Lista de bandeiras retornada com sucesso",
+  "api.doc.v1.banner.name.description": "Nome da bandeira",
+  "api.doc.v1.banner.description": "Representa uma bandeira de um ponto de venda",
+  "api.doc.v1.banner.id.description": "ID da bandeira",
+  "api.doc.v1.banner.chain.description": "Rede relacionada à bandeira"
+}

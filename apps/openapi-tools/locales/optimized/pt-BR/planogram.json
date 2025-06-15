@@ -1,0 +1,7 @@
+{
+  "api.error.v3.planogram.supercategory-category-params.description": "O planograma precisa estar relacionado à uma supercategoria ou uma categoria. Não é possível a relação com ambos.",
+  "api.error.v3.planogram.same-name.description": "Já existe um planograma com o mesmo nome.",
+  "api.error.v3.planogram.name-not-null.description": "O nome do planograma não pode ser nulo.",
+  "api.error.v3.planogram.name-not-empty.description": "O nome do planograma não pode ser vazio.",
+  "api.error.v3.planogram.pointofsalechannel-not-null.description": "O planograma deve estar relacionado a um canal de PDV."
+}

@@ -1,0 +1,8 @@
+{
+  "api.doc.v1.productlinemix.description": "Mix de linhas de produto.",
+  "api.doc.v1.productlinemix.id.description": "ID do mix de linhas de produto.",
+  "api.doc.v1.productlinemix.name.description": "Nome de Mix de produto.",
+  "api.doc.v1.productlinemix.all-product-lines.description": "Todas as linhas de produto foram selecionadas.",
+  "api.doc.v1.productlinemix.updated-at-millis.description": "Última atualização do mix de linhas de produto em millisegundos (ms).",
+  "api.doc.v1.productlinemix.updated-at.description": "Última atualização do mix de linhas de produto."
+}

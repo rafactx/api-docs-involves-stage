@@ -1,0 +1,5 @@
+{
+  "api.doc.v3.leaveofabsence.get-by-id.description": "Retorna um afastamento de acordo com o seu ID",
+  "api.doc.v3.leaveofabsence.get-by-id-ok.description": "Afastamento retornado com sucesso",
+  "api.doc.v3.leaveofabsence.id.description": "ID do afastamento"
+}

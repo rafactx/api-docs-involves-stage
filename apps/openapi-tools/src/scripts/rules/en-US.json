@@ -1,0 +1,89 @@
+{
+  "redundant_phrases": [
+    ["^Representa\\s+(uma?\\s+)?", ""],
+    ["^Retorna\\s+(uma?\\s+)?", ""],
+    ["^Indica\\s+se\\s+", ""],
+    ["^Lista\\s+de\\s+", "List of "],
+    ["^Informações?\\s+sobre\\s+", ""],
+    ["^Dados?\\s+d[oa]s?\\s+", ""],
+    ["de\\s+acordo\\s+com\\s+os?\\s+", "according to the "],
+    ["de\\s+acordo\\s+com\\s+o\\s+", "according to the "],
+    ["Quantidade\\s+de\\s+", "Total of "]
+  ],
+
+  "term_mappings": {
+    "ponto de venda": "point of sale",
+    "pontos de venda": "points of sale",
+    "colaborador": "employee",
+    "ambiente": "workspace",
+    "formulário": "form",
+    "pesquisa": "survey",
+    "roteiro": "itinerary",
+    "cadeia": "chain",
+    "bandeira": "banner",
+    "informações detalhadas sobre": "details of",
+    "configurações relacionadas a": "settings for",
+    "dados associados com": "data associated with",
+    "identificador único": "unique ID",
+    "identificador": "ID",
+    "Data de atualização": "Last update",
+    "Data da última atualização": "Last update",
+    "somente números": "numbers only"
+  },
+
+  "formatting_patterns": [
+    ["Valores\\s+retornados:\\s*(\\d+)\\s*\\(([^)]+)\\)", "\\1 = \\2"]
+  ],
+
+  "field_patterns": {
+    "id": "Unique ID of the {entity}",
+    "name": "Name of the {entity}",
+    "description": "Description of the {entity}",
+    "active": "Active/inactive status",
+    "deleted": "Indicates deletion",
+    "created_at": "Creation date",
+    "updated_at": "Last update"
+  },
+
+  "success_message_patterns": {
+    "retrieved": "{entity} retrieved successfully",
+    "created": "Created successfully",
+    "updated": "Updated successfully",
+    "removed": "Removed successfully"
+  },
+
+  "contractions": [],
+
+  "entity_optimizations": {
+    "accessprofile": { "name": "Access profile", "plural": "Access profiles", "gender": "n" },
+    "brand": { "name": "Brand", "plural": "Brands", "gender": "n" },
+    "category": { "name": "Category", "plural": "Categories", "gender": "n" },
+    "chain": { "name": "Chain", "plural": "Chains", "gender": "n" },
+    "city": { "name": "City", "plural": "Cities", "gender": "n" },
+    "country": { "name": "Country", "plural": "Countries", "gender": "n" },
+    "customfield": { "name": "Custom field", "plural": "Custom fields", "gender": "n" },
+    "employee": { "name": "Employee", "plural": "Employees", "gender": "n" },
+    "employeeabsence": { "name": "Employee absence", "plural": "Employee absences", "gender": "n" },
+    "employeeenvironment": { "name": "Employee link", "plural": "Employee links", "gender": "n" },
+    "employeeprofile": { "name": "Employee access profile", "plural": "Employee access profiles", "gender": "n" },
+    "environment": { "name": "Environment", "plural": "Environments", "gender": "n" },
+    "form": { "name": "Form", "plural": "Forms", "gender": "n" },
+    "formflow": { "name": "Form flow", "plural": "Form flows", "gender": "n" },
+    "informativeform": { "name": "Informative survey", "plural": "Informative surveys", "gender": "n" },
+    "macroregional": { "name": "Macro-regional", "plural": "Macro-regionals", "gender": "n" },
+    "pointofsale": { "name": "Point of sale", "plural": "Points of sale", "gender": "n" },
+    "pointofsalechannel": { "name": "POS channel", "plural": "POS channels", "gender": "n" },
+    "pointofsaletype": { "name": "POS type", "plural": "POS types", "gender": "n" },
+    "productline": { "name": "Product line", "plural": "Product lines", "gender": "n" },
+    "productlinemix": { "name": "Product mix", "plural": "Product mixes", "gender": "n" },
+    "regional": { "name": "Regional", "plural": "Regionals", "gender": "n" },
+    "scheduledvisits": { "name": "Scheduled visit", "plural": "Scheduled visits", "gender": "n" },
+    "shoppingcenter": { "name": "Shopping center", "plural": "Shopping centers", "gender": "n" },
+    "sku": { "name": "SKU", "plural": "SKUs", "gender": "n" },
+    "state": { "name": "State", "plural": "States", "gender": "n" },
+    "supercategory": { "name": "Supercategory", "plural": "Supercategories", "gender": "n" },
+    "survey": { "name": "Visit survey", "plural": "Visit surveys", "gender": "n" },
+    "surveycategory": { "name": "Task group", "plural": "Task groups", "gender": "n" },
+    "visit": { "name": "Visit", "plural": "Visits", "gender": "n" }
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "api.doc.v1.informationoption.description": "Opção de uma informação.",
+  "api.doc.v1.informationoption.id.description": "ID da opção de uma informação.",
+  "api.doc.v1.informationoption.value.description": "Nome da opção.",
+  "api.doc.v1.informationoption.score.description": "Pontuação desta opção.",
+  "api.doc.v1.informationoption.order.description": "Ordem da opção dentro da informação."
+}

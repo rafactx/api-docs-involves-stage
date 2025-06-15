@@ -1,0 +1,5 @@
+{
+  "api.doc.v1.employeeeenvironment.query-update-at.description": "Busca resultados com data de atualização dos colaboradores maior ou igual à data informada",
+  "api.doc.v1.employeeeenvironment.query-update-at-millis.description": "Busca resultados com data de atualização dos colaboradores - <b>em milissegundos (ms)</b> - maior ou igual a data informada. Prevalece sobre a busca por data formatada.",
+  "api.doc.v1.employeeeenvironment.id.description": "ID do colaborador"
+}

@@ -1,0 +1,11 @@
+{
+  "api.doc.v1.state.find.description": "Retorna uma lista de estados",
+  "api.doc.v1.state.find-ok.description": "Lista de estados retornada com sucesso",
+  "api.doc.v1.state.get-by-id.description": "Retorna um estado",
+  "api.doc.v1.state.get-by-id-ok.description": "Estado retornado com sucesso",
+  "api.doc.v1.state.id.description": "ID do estado",
+  "api.doc.v1.state.description": "Representa um estado",
+  "api.doc.v1.state.country.description": "País relacionado com o estado",
+  "api.doc.v1.state.name.description": "Nome do estado",
+  "api.doc.v1.state.state-iso-code.description": "Sigla do estado"
+}

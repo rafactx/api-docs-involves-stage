@@ -1,0 +1,21 @@
+{
+  "api.doc.v3.category.get-by-id.description": "Retorna uma categoria de acordo com o seu ID",
+  "api.doc.v3.category.get-by-id-ok.description": "Categoria retornada com sucesso",
+  "api.doc.v3.category.id.description": "ID da categoria",
+  "api.doc.v1.category.get-by-id.description": "Retorna a categoria da linha de produto de acordo com o ID especificado",
+  "api.doc.v1.category.get-by-id-ok.description": "Categoria da linha de produto retornada com sucesso",
+  "api.doc.v1.category.id.description": "ID da categoria",
+  "api.doc.v1.category.description": "Representa um categoria de uma linha de produto",
+  "api.doc.v1.category.supercategory.description": "Supercategoria da categoria",
+  "api.doc.v1.category.updated-at.description": "Data de atualização da categoria",
+  "api.doc.v1.category.deleted.description": "Indica se a categoria da linha de produto foi excluída",
+  "api.doc.v1.category.mini.description": "Representa uma versão compacta de uma categoria de uma linha de produto",
+  "api.doc.v1.category.name.description": "Nome da categoria",
+  "api.doc.v1.category.sync.description": "Retorna as categorias modificados após a data em milissegundos (ms) especificada",
+  "api.doc.v1.category.sync-ok.description": "Lista de categorias retornada com sucesso",
+  "api.doc.v1.category.sync-timestamp.description": "Data em milissegundos (ms) que será utilizada como início da consulta",
+  "api.doc.v1.category.sync-size.description": "Número de registros a serem listados",
+  "api.doc.v1.category.sync-count.description": "Indica se deve retornar o número estimado de páginas",
+  "api.doc.v1.category.sync-ignore-exclude.description": "Indica se deve ignorar as categorias excluídas",
+  "api.error.v3.category.not-found.description": "Categoria não encontrada"
+}

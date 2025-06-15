@@ -1,0 +1,4 @@
+{
+  "api.doc.v3.limitations.title": "Limitações",
+  "api.doc.v3.limitations.description": "<p>Não possuímos limitações de requisições. Porém o abuso da API pode resultar em bloqueio temporário de requisições.</p>\n<p>Recomendamos que não sejam feitas requisições paralelas, e que seja mantido um número máximo e saudável de 40 a 60 requisições por minuto.</p>"
+}

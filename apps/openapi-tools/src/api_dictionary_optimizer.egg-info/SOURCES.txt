@@ -1,0 +1,15 @@
+README.md
+pyproject.toml
+src/api_dictionary_optimizer.egg-info/PKG-INFO
+src/api_dictionary_optimizer.egg-info/SOURCES.txt
+src/api_dictionary_optimizer.egg-info/dependency_links.txt
+src/api_dictionary_optimizer.egg-info/entry_points.txt
+src/api_dictionary_optimizer.egg-info/requires.txt
+src/api_dictionary_optimizer.egg-info/top_level.txt
+src/scripts/__init__.py
+src/scripts/api_dictionary_optimizer.py
+src/scripts/constants.py
+src/scripts/workflow_manager.py
+tests/test_e2e_workflow.py
+tests/test_integration_optimizer.py
+tests/test_unit_optimizer.py

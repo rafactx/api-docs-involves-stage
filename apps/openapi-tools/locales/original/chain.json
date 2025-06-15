@@ -1,0 +1,11 @@
+{
+  "api.doc.v3.chain.get-by-id.description": "Retorna uma rede de acordo com o seu ID",
+  "api.doc.v3.chain.post.description": "Salva uma nova rede",
+  "api.doc.v3.chain.get-by-id-ok.description": "Rede retornada com sucesso",
+  "api.doc.v3.chain.post-ok.description": "Retorna o ID da nova rede que foi salva com sucesso",
+  "api.doc.v3.chain.id.description": "ID da rede",
+  "api.doc.v1.chain.description": "Representa uma rede de um ponto de venda",
+  "api.doc.v1.chain.id.description": "ID da rede",
+  "api.doc.v1.chain.name.description": "Nome da rede",
+  "api.doc.v1.chain.code.description": "Código da rede"
+}

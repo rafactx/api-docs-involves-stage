@@ -1,0 +1,4 @@
+node_modules/
+packages/openapi-tools/.venv/
+.next/
+.DS_Store

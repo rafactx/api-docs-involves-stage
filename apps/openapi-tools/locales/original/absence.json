@@ -1,0 +1,11 @@
+{
+  "api.doc.v1.absence.mini.description": "Representa uma versão compacta de uma justificativa de visita",
+  "api.doc.v1.absence.date.description": "Data da justificativa",
+  "api.doc.v1.absence.reason-id.description": "ID da razão da justificativa",
+  "api.doc.v1.absence.description": "Representa uma justificativa de uma visita",
+  "api.doc.v1.absence.id.description": "ID da visita justificada",
+  "api.doc.v1.absence.employee-id.description": "ID do colaborador que realizou a justificativa, podendo ser o responsável pela visita ou não",
+  "api.doc.v1.absence.reason.description": "Razão da justificativa",
+  "api.doc.v1.absence.note.description": "Observação da justificativa",
+  "api.doc.v1.absence.status.description": "Status da Justificativa. Valores retornados: 0 (Pendente), 1 (Aprovada) e 2 (Reprovada)."
+}

@@ -1,0 +1,19 @@
+{
+  "api.doc.v3.address.title": "Endereço",
+  "api.doc.v3.address.get-by-id.title": "Busca de endereço",
+  "api.doc.v3.address.get-by-id.description": "Retorna um endereço de acordo com o seu ID",
+  "api.doc.v3.address.get-by-pointofsale-id.description": "Retorna o endereço de um ponto de venda de acordo com o ID do ponto de venda",
+  "api.doc.v3.address.get-by-pointofsale-id-ok.description": "Endereço do ponto de venda retornado com sucesso",
+  "api.doc.v1.address.description": "Representa um endereço",
+  "api.doc.v1.address.id.description": "ID do endereço",
+  "api.doc.v1.address.address.description": "Endereço",
+  "api.doc.v1.address.number.description": "Número do endereço",
+  "api.doc.v1.address.neighborhood.description": "Bairro do endereço",
+  "api.doc.v1.address.zip-code.description": "CEP",
+  "api.doc.v1.address.complement.description": "Complemento do endereço",
+  "api.doc.v1.address.latitude.description": "Latitude da localização do endereço",
+  "api.doc.v1.address.longitude.description": "Longitude da localização do endereço",
+  "api.doc.v1.address.city.description": "Cidade relacionada com o endereço",
+  "api.doc.v3.address.get-by-employee-id.description": "Retorna o endereço de um colaborador de acordo com o ID do colaborador",
+  "api.doc.v3.address.get-by-employee-id-ok.description": "Endereço do colaborador retornado com sucesso"
+}

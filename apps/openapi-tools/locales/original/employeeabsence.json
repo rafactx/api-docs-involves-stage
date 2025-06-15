@@ -1,0 +1,16 @@
+{
+  "api.doc.v1.employeeabsence.find.description": "Retorna uma lista paginada de afastamentos dos colaboradores",
+  "api.doc.v1.employeeabsence.find-ok.description": "Lista de afastamentos retornada com sucesso",
+  "api.doc.v1.employeeabsence.find-start-date.description": "Busca resultados com a data de início do afastamento anterior ou posterior a data informada",
+  "api.doc.v1.employeeabsence.find-end-date.description": "Busca resultados com a data final do afastamento anterior ou posterior a data informada",
+  "api.doc.v1.employeeabsence.description": "Representa um afastamento",
+  "api.doc.v1.employeeabsence.id.description": "ID do afastamento",
+  "api.doc.v1.employeeabsence.absence-start-date.description": "Data de início do afastamento",
+  "api.doc.v1.employeeabsence.absence-end-date.description": "Data final do afastamento",
+  "api.doc.v1.employeeabsence.reason-id.description": "ID do motivo do afastamento",
+  "api.doc.v1.employeeabsence.reason-note.description": "Motivo do afastamento",
+  "api.doc.v1.employeeabsence.absence-note.description": "Observação do afastamento",
+  "api.doc.v1.employeeabsence.employee-environment-suspended.description": "Colaborador afastado",
+  "api.doc.v1.employeeabsence.employee-environment-registered-by.description": "Colaborador que registrou o afastamento",
+  "api.doc.v1.employeeabsence.employee-environment-substitute.description": "Colaborador substituto"
+}

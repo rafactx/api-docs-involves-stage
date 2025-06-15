@@ -1,0 +1,11 @@
+{
+  "api.doc.v1.pointofsaletype.description": "Tipo de PDV.",
+  "api.doc.v1.pointofsaletype.id.description": "ID do tipo do PDV.",
+  "api.doc.v1.pointofsaletype.name.description": "Nome de Tipo de PDV.",
+  "api.doc.v1.pointofsaletype.find.description": "A lista paginada de tipos de PDVs.",
+  "api.doc.v1.pointofsaletype.find-ok.description": "Lista paginada de tipos de PDVs retornado com sucesso.",
+  "api.doc.v1.pointofsaletype.get-by-id.description": "O tipo de PDV.",
+  "api.doc.v1.pointofsaletype.get-by-id-ok.description": "Tipo de PDV retornado com sucesso.",
+  "api.doc.v3.pointofsaletype.post.description": "Salva um novo tipo de PDV.",
+  "api.doc.v3.pointofsaletype.post-ok.description": "Criado com sucesso."
+}

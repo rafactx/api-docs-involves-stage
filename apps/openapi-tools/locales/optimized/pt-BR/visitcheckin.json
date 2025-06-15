@@ -1,0 +1,10 @@
+{
+  "api.doc.v1.visitcheckin.description": "Check-in realizado em uma visita.",
+  "api.doc.v1.visitcheckin.id.description": "ID do check-in.",
+  "api.doc.v1.visitcheckin.entry-date.description": "Data do check-in realizado no PDV.",
+  "api.doc.v1.visitcheckin.sync-time-entry-date.description": "Data em que o check-in foi sincronizado com o sistema.",
+  "api.doc.v1.visitcheckin.exit-date.description": "Data do check-out realizado no PDV.",
+  "api.doc.v1.visitcheckin.sync-time-exit-date.description": "Data em que o check-out foi sincronizado com o sistema.",
+  "api.doc.v1.visitcheckin.type.description": "Tipo do check-in. Valores possíveis: 0 (Manual), 1 (GPS).",
+  "api.doc.v1.visitcheckin.automatic-checkout-by-system.description": "O check-out foi realizado automaticamente pelo sistema."
+}

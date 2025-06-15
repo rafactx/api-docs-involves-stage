@@ -1,0 +1,5 @@
+{
+  "api.doc.v1.surveycategory.description": "Representa o grupo de tarefas de uma pesquisa",
+  "api.doc.v1.surveycategory.id.description": "ID do grupo de tarefas",
+  "api.doc.v1.surveycategory.name.description": "Nome do grupo de tarefas"
+}

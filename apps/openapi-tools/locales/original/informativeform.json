@@ -1,0 +1,8 @@
+{
+  "api.doc.v3.informativeform.get-by-id.description": "Retorna os dados de uma pesquisa pelo id",
+  "api.doc.v3.informativeform.get-by-id-ok.description": "Dados da pesquisa retornado com sucesso",
+  "api.doc.v3.informativeform.list.description": "Retorna os dados de todas as pesquisas cadastradas",
+  "api.doc.v3.informativeform.list-ok.description": "Dados de todas as pesquisas cadastradas retornada com sucesso",
+  "api.doc.v3.informativeform.save.description": "Cadastra uma pesquisa informativa",
+  "api.doc.v3.informativeform.save-ok.description": "Pesquisa informativa cadastrada com sucesso"
+}

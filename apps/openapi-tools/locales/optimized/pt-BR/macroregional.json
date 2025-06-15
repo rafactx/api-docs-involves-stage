@@ -1,0 +1,8 @@
+{
+  "api.doc.v3.macroregional.get-by-id.description": "Macrorregional pelo ID.",
+  "api.doc.v3.macroregional.get-by-id-ok.description": "Macrorregional retornada com sucesso.",
+  "api.doc.v3.macroregional.id.description": "ID da macrorregional.",
+  "api.doc.v1.macroregional.description": "Macrorregional.",
+  "api.doc.v1.macroregional.id.description": "ID da macrorregional.",
+  "api.doc.v1.macroregional.name.description": "Nome de Macroregional."
+}

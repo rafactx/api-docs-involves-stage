@@ -1,0 +1,10 @@
+{
+  "api.doc.v1.shoppingcenter.find.description": "A lista de centros comerciais do ambiente.",
+  "api.doc.v1.shoppingcenter.find-ok.description": "Centros comerciais retornados com sucesso.",
+  "api.doc.v1.shoppingcenter.get-by-id.description": "O centro comercial.",
+  "api.doc.v1.shoppingcenter.get-by-id-ok.description": "Centro comercial retornado com sucesso.",
+  "api.doc.v1.shoppingcenter.id.description": "ID do centro comercial.",
+  "api.doc.v1.shoppingcenter.description": "Centro comercial.",
+  "api.doc.v1.shoppingcenter.name.description": "Nome de Centro comercial.",
+  "api.doc.v1.shoppingcenter.environment.description": "Ambiente relacionado com o centro comercial."
+}

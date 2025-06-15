@@ -1,0 +1,9 @@
+{
+  "api.doc.v3.scheduledvisits.list.description": "Lista paginada de visitas agendadas de um colaborador específico.",
+  "api.doc.v3.scheduledvisits.list-ok.description": "Visitas agendadas retornadas com sucesso.",
+  "api.doc.v3.scheduledvisits.query-start-date.description": "Data de início da busca.",
+  "api.doc.v3.scheduledvisits.query-end-date.description": "Data de fim da busca.",
+  "api.doc.v3.scheduledvisits.query-visited.description": "A visita aconteceu.",
+  "api.doc.v3.scheduledvisits.delete-all.description": "Exclui visitas agendadas de um colaborador.",
+  "api.doc.v3.scheduledvisits.delete-all-ok.description": "Visitas agendadas excluídas com sucesso."
+}

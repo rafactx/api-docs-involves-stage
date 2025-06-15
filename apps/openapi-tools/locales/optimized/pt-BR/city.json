@@ -1,0 +1,10 @@
+{
+  "api.doc.v1.city.find.description": "Cidades pelo parâmetro enviado (stateId, stateIsoCode ou name).",
+  "api.doc.v1.city.find-ok.description": "Cidades retornadas com sucesso.",
+  "api.doc.v1.city.get-by-id.description": "Cidade.",
+  "api.doc.v1.city.get-by-id-ok.description": "Cidade retornada com sucesso.",
+  "api.doc.v1.city.name.description": "Nome de Cidade.",
+  "api.doc.v1.city.id.description": "ID da cidade.",
+  "api.doc.v1.city.description": "Cidade.",
+  "api.doc.v1.city.state.description": "Estado relacionado com a cidade."
+}

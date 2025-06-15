@@ -1,0 +1,6 @@
+{
+  "api.doc.v1.formflow.description": "Representa um fluxo do formulário",
+  "api.doc.v1.formflow.name.description": "Nome do fluxo do formulário",
+  "api.doc.v1.formflow.flow-type.description": "Tipo do fluxo",
+  "api.doc.v1.formflow.id.description": "ID do fluxo do formulário"
+}

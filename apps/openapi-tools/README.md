@@ -1,0 +1,145 @@
+# OpenAPI Tools
+
+A suite of command-line tools designed to lint, organize, and optimize OpenAPI specification files within the `api-docs-involves-stage` monorepo.
+
+![Python Version](https://img.shields.io/badge/python-3.8+-blue.svg)
+![Code Style: Black](https://img.shields.io/badge/code%20style-black-000000.svg)
+![Linting: Ruff](https://img.shields.io/badge/linting-ruff-deepgreen.svg)
+
+## 🎯 Overview
+
+This project, located at `apps/openapi-tools`, provides a robust, automated workflow for maintaining our OpenAPI documentation. Its primary function is to process original OpenAPI JSON files, apply a series of language-specific optimizations, and prepare them for our documentation platform located in `apps/docs/apis`.
+
+The main tool, `optimize-dict`, is a configuration-driven optimizer that makes API descriptions concise, consistent, and developer-friendly.
+
+---
+
+## 🚀 Quick Start
+
+Get up and running in 5 minutes. These commands are for **macOS and Linux**.
+
+```bash
+# 1. Navigate to the tool's directory from the monorepo root
+cd apps/openapi-tools
+
+# 2. Create and activate a Python virtual environment
+# This isolates dependencies and is a required best practice.
+python3 -m venv .venv
+source .venv/bin/activate
+
+# 3. Install the project and all development dependencies
+# The '-e ".[dev]"' part installs the tool in editable mode and includes
+# packages for testing and code formatting (pytest, black, ruff).
+pip install -e ".[dev]"
+
+# 4. Run the optimizer for all languages
+# You are now ready to go!
+optimize-dict --all
+```
+
+---
+
+## 🧰 Detailed Usage
+
+The primary entry point is the `optimize-dict` command.
+
+| Command | Description |
+| :--- | :--- |
+| `optimize-dict` | Runs in **interactive mode**, prompting you to select a language. |
+| `optimize-dict --pt` | Optimizes all files for Portuguese (`pt-BR`). |
+| `optimize-dict --en` | Optimizes all files for English (`en-US`). |
+| `optimize-dict --es` | Optimizes all files for Spanish (`es-ES`). |
+| `optimize-dict --fr` | Optimizes all files for French (`fr-FR`). |
+| `optimize-dict --all`| **Ideal for automation.** Runs the optimizer for all supported languages sequentially. |
+
+---
+
+## 🔧 Configuration & Extensibility
+
+The tool is designed to be easily configured without changing the core Python code.
+
+### Modifying Rules
+
+All optimization rules are located in the `rules/` directory. To modify a rule, simply edit the relevant JSON file (e.g., `rules/en-US.json`).
+
+The JSON structure includes:
+
+* `field_patterns`: Simple text replacements for specific field types (e.g., `id`, `name`).
+* `redundant_phrases`: Regex patterns to find and remove verbose text.
+* `term_mappings`: A dictionary for replacing specific words or phrases.
+* `formatting_patterns`: Regex for structural text formatting.
+* `contractions`: Language-specific rules for contracting words (e.g., `de a` -> `da` in Portuguese).
+
+### Adding a New Language
+
+1. **Create Rule File**: In the `rules/` directory, create a new JSON file named after the language code (e.g., `de-DE.json`). Use `en-US.json` as a template.
+2. **Translate Rules**: Populate the new file with rules for the target language.
+3. **Update Script**: Open `scripts/workflow_manager.py` and add the new language code to the `SUPPORTED_LANGUAGES` list.
+4. **Add CLI Flag (Optional)**: To add a new flag (e.g., `--de`), edit the `main()` function in `workflow_manager.py` and add a new `parser.add_argument`.
+
+---
+
+## 💻 Development & Contribution
+
+Follow these guidelines to contribute to the project while maintaining code quality and consistency.
+
+### 1. Code Style & Formatting
+
+We use **Black** for uncompromising code formatting and **Ruff** for high-performance linting.
+
+> **Important**: Before committing any changes, run the formatter and linter to ensure your code adheres to the project's style.
+
+```bash
+# Ensure your virtual environment is active
+
+# Auto-format all Python files in the 'scripts/' directory
+black scripts/
+
+# Check for linting errors with Ruff
+ruff check scripts/
+```
+
+### 2. Running Tests
+
+We use **pytest** for testing.
+
+```bash
+# Ensure your virtual environment is active
+
+# Run the entire test suite with verbose output
+pytest -v
+```
+
+Tests are located in the `tests/` directory and should follow the `test_*.py` naming convention. `pytest` will discover and run them automatically.
+
+### 3. Contribution Workflow
+
+1. Create a new branch for your feature or bug fix.
+2. Make your changes.
+3. Format and lint your code (`black .` and `ruff check .`).
+4. Write or update tests for your changes in the `tests/` directory.
+5. Ensure all tests pass (`pytest -v`).
+6. Submit a Pull Request for review.
+
+---
+
+## 🏗️ Project Structure
+
+```
+apps/openapi-tools/
+├── locales/                # Input/Output directories for OpenAPI files
+│   ├── original/
+│   └── optimized/
+├── rules/                  # Directory for language-specific rule files
+│   ├── en-US.json
+│   └── pt-BR.json
+├── scripts/                # Main application source code
+│   ├── api_dictionary_optimizer.py
+│   ├── constants.py
+│   └── workflow_manager.py
+├── tests/                  # Directory for all tests
+│   └── test_optimizer.py
+├── .venv/                  # Python virtual environment (ignored by Git)
+├── pyproject.toml          # Project definition and dependency management
+└── README.md               # This file
+```

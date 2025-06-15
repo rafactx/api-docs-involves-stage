@@ -1,0 +1,7 @@
+{
+  "api.doc.v3.environment.id.description": "ID do ambiente",
+  "api.doc.v1.environment.id.description": "ID do ambiente",
+  "api.doc.v1.environment.description": "Representa um ambiente",
+  "api.doc.v1.environment.name.description": "Nome do ambiente",
+  "api.doc.v2.environment.id.description": "ID do ambiente"
+}

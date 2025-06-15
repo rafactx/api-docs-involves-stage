@@ -1,0 +1,7 @@
+{
+  "api.doc.v1.visitsurveys.description": "As pesquisas de uma visita.",
+  "api.doc.v1.visitsurveys.expected.description": "Total de pesquisas esperadas.",
+  "api.doc.v1.visitsurveys.completed.description": "Total de pesquisas realizadas.",
+  "api.doc.v1.visitsurveys.pending.description": "Total de pesquisas pendentes.",
+  "api.doc.v1.visitsurveys.all-surveys-answered.description": "Foram respondidas todas as pesquisas."
+}

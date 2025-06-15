@@ -1,0 +1,14 @@
+{
+  "api.doc.v3.pointofsalechannel.get-by-id.description": "Canal do PDV pelo ID do canal.",
+  "api.doc.v3.pointofsalechannel.get-by-id-ok.description": "Canal de ponto do venda retornado com sucesso.",
+  "api.doc.v3.pointofsalechannel.id.description": "ID do canal do PDV.",
+  "api.doc.v1.pointofsalechannel.description": "Canal do PDV.",
+  "api.doc.v1.pointofsalechannel.id.description": "ID do canal do PDV.",
+  "api.doc.v1.pointofsalechannel.name.description": "Nome de Canal do PDV.",
+  "api.error.v3.pointofsalechannel.not-found.description": "Canal do PDV não encontrado.",
+  "api.doc.v3.pointofsalechannel.post.description": "Salva um novo canal de PDV.",
+  "api.doc.v3.pointofsalechannel.post-ok.description": "Criado com sucesso.",
+  "api.doc.v3.pointofsalechannel.list.description": "Lista paginada de canais de PDV.",
+  "api.doc.v3.pointofsalechannel.name.description": "Nome de Canal do PDV.",
+  "api.doc.v3.pointofsalechannel.list-ok.description": "Canais de PDV retornado com sucesso."
+}

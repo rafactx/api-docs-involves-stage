@@ -1,0 +1,11 @@
+{
+  "api.doc.v1.pointofsaletype.description": "Representa um tipo de ponto de venda",
+  "api.doc.v1.pointofsaletype.id.description": "ID do tipo do ponto de venda",
+  "api.doc.v1.pointofsaletype.name.description": "Nome do tipo do ponto de venda",
+  "api.doc.v1.pointofsaletype.find.description": "Retorna a lista paginada de tipos de pontos de venda",
+  "api.doc.v1.pointofsaletype.find-ok.description": "Lista paginada de tipos de pontos de venda retornada com sucesso",
+  "api.doc.v1.pointofsaletype.get-by-id.description": "Retorna o tipo de ponto de venda especificado",
+  "api.doc.v1.pointofsaletype.get-by-id-ok.description": "Tipo de ponto de venda retornado com sucesso",
+  "api.doc.v3.pointofsaletype.post.description": "Salva um novo tipo de ponto de venda",
+  "api.doc.v3.pointofsaletype.post-ok.description": "Retorna o ID do novo tipo de ponto de venda que foi salvo com sucesso"
+}

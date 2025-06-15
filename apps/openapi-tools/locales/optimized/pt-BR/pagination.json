@@ -1,0 +1,14 @@
+{
+  "api.doc.v3.pagination.page.description": "Página do resultado.",
+  "api.doc.v3.pagination.size.description": "Total de resultados na página.",
+  "api.doc.v3.pagination.total-pages.description": "Total de páginas.",
+  "api.doc.v3.pagination.total-items.description": "Total de itens.",
+  "api.doc.v3.pagination.query-page.description": "Busca por uma página especificada.",
+  "api.doc.v3.pagination.query-size.description": "Determina a Total de itens em cada página.",
+  "api.doc.v3.pagination.title": "Paginação.",
+  "api.doc.v3.pagination.description": "<p>Quando o tamanho do retorno de um endpoint não pode ser determinado, é retornado num formato paginado. Os parâmetros padrão deste tipo de requisições são a página desejada (a partir da página 1) e o tamanho das páginas retornadas. Além destes e dependendo do endpoint, outros parâmetros podem estar disponíveis. No objeto de retorno, são retornadas informações a respeito da página atual, bem como uma lista com os dados presentes nesta página.</p>.",
+  "api.doc.v1.pagination.query-page.description": "Busca por uma página especificada.",
+  "api.doc.v1.pagination.query-size.description": "Determina a Total de itens em cada página.",
+  "api.doc.v2.pagination.query-page.description": "A página retornada.",
+  "api.doc.v2.pagination.query-size.description": "O máximo de visitas agendadas retornadas por página com o valor máximo de 200."
+}
